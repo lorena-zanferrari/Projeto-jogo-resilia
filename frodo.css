@@ -1,0 +1,21 @@
+body {
+    font-family: 'Sanchez', serif;
+    text-align:center;
+    background-image: url(./img/fundofrodo.png);
+    color: black;
+    background-size:cover;
+    max-width: 100%;
+}
+
+h1{
+    margin-top: 2rem;
+}
+
+h3{
+    margin: 2.5rem 3rem 3rem 2.5rem;
+}
+
+button{
+    align-self: auto;
+    color: black;
+}

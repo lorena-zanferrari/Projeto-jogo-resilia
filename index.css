@@ -1,0 +1,57 @@
+body {
+    font-family: 'Sanchez', serif;
+    background-image: url(https://images5.alphacoders.com/810/thumb-1920-810136.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: rgb(231, 178, 3);
+    text-align: center;
+}
+
+button{
+    align-self: center;
+}
+img {
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.chars {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.chars .card {
+    margin: auto 10px;
+    background-color: transparent;
+    color: white;
+    max-width: 20rem;
+}
+
+footer {
+    margin-top: 2rem;
+    color: black;
+
+}
+
+@media (max-width: 700px)  {
+   header {
+       display: flex;
+       justify-content: center;
+
+   }
+
+   footer{
+       position: initial;
+   }
+
+   img{
+       width: 700px;
+   }
+}
+        

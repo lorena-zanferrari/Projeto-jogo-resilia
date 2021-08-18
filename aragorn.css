@@ -1,0 +1,48 @@
+body {
+    font-family: 'Sanchez', serif;
+    text-align:center;
+    background-image: url(./img/fundoaragorn.jpg);
+    background-size: cover;
+    color: white;
+}
+h1{
+    margin-top: 2rem;
+}
+h4{
+    margin: 2.5rem 3rem 3rem 2.5rem;
+}
+
+button{
+    align-self: auto;
+    color: black;
+}
+
+@media (max-width: 700px)  {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        background-size:auto; 
+        background-repeat: none;
+    }
+ 
+    footer{
+        position: initial;
+    }
+ 
+    img{
+        width: 900px;
+    }
+ }
+ @media (min-width: 700px)  {
+     body{
+         background-size: auto;
+         background-repeat: none;
+        }
+
+    img {
+        width: 900px;
+    }
+}
