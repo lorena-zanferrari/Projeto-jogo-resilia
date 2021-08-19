@@ -1,16 +1,16 @@
 function aragornStory1() {
-    alert("Você está andando numa estrada e ouve um barulho de cavalo");
-    alert("Mas você sabe que no Condado nao existem cavalos, o que você faz?");
+    alert("Você acabou de descobrir que é o herdeiro de Isildur e pretendente legítimo aos tronos de Arnor e Gondor.");
+    alert("Agora com a queda de Gandalf, você tem a missão de liderar a sociedade do Anel. O que você deseja fazer?");
     var invalidChoice = true;
     while (invalidChoice) {  
-        var choice = prompt("Opção 1: Continua caminhando pela estrada \nOpção 2: se esconde");
+        var choice = prompt("Opção 1: Se recusa, afinal, acabou de descobrir seu passado e ainda nao se sente pronto pra encarar essa responsabilidade.  \n Opção 2: Aceita a missão e embarca junto aos outros seres em busca de destruição do anel.");
         invalidChoice = false;
         if (choice === '1') {
-            alert("Na verdade os cavalos eram dos espectros e eles te encontraram")
+            alert("Sem sua ajuda, a Terra Média nao poderia enfrentar as forças de Sauron e infelizmente, tudo foi dominado pelas forças trevosas do criador dos aneis.")
             alert("Game over!")
             return location.href = './index.html';
         } else if (choice === '2') {
-            alert("Eram espectros e você conseguiu escapar deles!")
+            alert("Parabéns, finalmente agora a sociedade do anel tem uma liderança para guiá-los")
             alert("Parabéns, você saiu do Condado com sucesso!")
             aragornStory2();
         } else {
