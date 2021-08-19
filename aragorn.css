@@ -8,13 +8,23 @@ body {
 h1{
     margin-top: 2rem;
 }
-h4{
-    margin: 2.5rem 3rem 3rem 2.5rem;
+
+.container{
+    background-color: #c4b470;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    padding: 2rem;
 }
 
 button{
     align-self: auto;
     color: black;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 700px)  {

@@ -5,12 +5,27 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    color: rgb(231, 178, 3);
+    color: #534138;
     text-align: center;
+}
+
+
+.container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #c4b470;
+    border-radius: 20px;
 }
 
 button{
     align-self: center;
+    background-color: #5c1014;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(1.1);
 }
 img {
     border-radius: 10px;
@@ -23,27 +38,35 @@ img:hover{
 .chars {
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 
 .chars .card {
-    margin: auto 10px;
+    margin: 0 10px;
     background-color: transparent;
-    color: white;
+    color: #534138;
     max-width: 20rem;
+    border: 3px solid #5c1014;
+    border-radius: 5px;
 }
 
 footer {
     margin-top: 2rem;
     color: black;
+    background-color: #c4b470;
+}
 
+.copyright{
+    border-radius: 5px;
 }
 
 @media (max-width: 700px)  {
    header {
        display: flex;
        justify-content: center;
-
    }
 
    footer{

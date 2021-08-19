@@ -11,7 +11,7 @@ function escolha() {
             alert("Bem vindo Legolas!!")
             return location.href = './legolas.html';
         } else {
-            alert("Escolha seu personagem!!")
+            alert("Escolha seu personagem!")
             invalidChoice = true;
             return escolha();
         }

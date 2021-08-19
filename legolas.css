@@ -17,4 +17,13 @@ h3{
 button{
     align-self: auto;
     color: black;
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color:#c4b470;
+    border-radius: 5px;
 }
