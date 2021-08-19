@@ -18,6 +18,7 @@ function frodoStory3() {
             alert("Você hesita e ate diz que não vai quando se ve tomado pelo anel e não joga e confronta Sam, logo você fica invisivel mas Smeagol chega a tempo de tomar o anel.")
             alert("Arrancando de seu dedo enquanto está invisivel e caindo dentro da lava. Destruindo-o  assim como Sauron.")
             alert("A terra média está salva!!")
+            return location.href = './index.html';
         } else {
             alert("Escolha uma opção válida!")
             invalidChoice = true;

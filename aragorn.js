@@ -12,7 +12,8 @@ function aragornStory3() {
             return location.href = './index.html';
         } else if (choice === '2') {
             alert("O Exército do Oeste combateu as forças de Mordor até que o Anel foi destruído e o domínio de Sauron caiu.")
-            alert("Quando Frodo e Sam foram resgatados da destruição de Mordor, você cuidou dos ferimentos deles. Nas celebrações no Campo de Cormallen, você ajoelhou-se ante os Hobbits e então os trouxe para sentar em um trono e conclamou o povo reunido em honras e aclamações.")
+            alert("Frodo e Sam finalmente ganharam tempo e destruiram o Um Anel e aniquilando o poder do Senhor do Escuro de uma vez por todas.")
+            alert("Frodo e Sam foram resgatados da destruição de Mordor, você cuidou dos ferimentos deles. Nas celebrações no Campo de Cormallen, você ajoelhou-se ante os Hobbits e então os trouxe para sentar em um trono e conclamou o povo reunido em honras e aclamações.")
             alert("Parabéns, você venceu!! A Terra Média finalmente encontrou a paz!")
             return location.href = './index.html';
         } else if (choice === '3') {

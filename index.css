@@ -68,9 +68,16 @@ footer {
        display: flex;
        justify-content: center;
    }
-
+.container{
+    display: inline-flexbox;
+    margin-left: 4rem;
+    align-items:center;
+}
    footer{
-       position: initial;
+       align-content: space-around;
+       position: relative;
+       margin-left: 9rem;
+
    }
 
    img{
